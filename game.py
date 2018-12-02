@@ -83,7 +83,7 @@ def who_win(gameState):
 	elif(count_all(gameState, 4, -1) > 0):
 		return -100
 	else:
-		return count_all(gameState, 3, 1) - count_all(gameState, 3, -1) # Implement VIKTOR in here
+		return count_all(gameState, 3, 1) - count_all(gameState, 3, -1)
 
 class node:
 	def __init__(self, gameState, depth):
@@ -142,10 +142,6 @@ def make_move(gameState):
 	else:
 		return best_move
 
-def is_problem(potential_problem, team):
-	if(team*-1 in potential_problem)
-
-def get_problems(gameState, team): # Problems are potential threats from opponent. So if team = 1 then it will find potential threats for team = -1
 	
 
 
